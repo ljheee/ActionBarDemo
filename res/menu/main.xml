@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    <item
+        android:id="@+id/action_view"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/action_view"/>
+    
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/exit"
+        android:orderInCategory="10"
+        android:showAsAction="always"
+        android:title="@string/action_exit"/>
+    
+     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
